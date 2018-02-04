@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-language" content="ar" />
+
+    <style>
+
+body { 
+    font-size:25px; 
+    color:#000000; 
+    font-style:normal;
+    font-family: "Times New Roman";
+    direction: rtl;
+    font-weight: normal;
+   }
+  .hidden { 
+    opacity: 0;
+    font-size: 1px;
+  }
+  .ltr-text {
+    direction: ltr;
+  }
+
+  }
+  .rtl-text {
+    direction: rtl;
+  }
+
+
+p {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+ul {
+    line-height: 20px;
+  }
+
+table {
+    width: 100%; 
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+
+td {
+    border: 1px solid #cccccc;
+    text-align: right;
+    padding: 8px;
+  }
+
+th {
+    border: 1px solid #cccccc;
+    text-align: left;
+    padding: 8px;
+  }    
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+#top {
+    direction: ltr;
+    text-align: center;   
+  }
+
+#intro {
+    font-size:35px;
+    background-color: #E8E8E8;
+    margin-top: 2.3%;
+    margin-bottom: 5%;
+    padding-top: 2.1%;
+    padding-right: 5%;
+    padding-bottom: 2.1%;
+    padding-left: 5%;
+    direction: ltr;
+    line-height: 220%;
+    }
+#intro h1 {
+    font-size: 25px;
+    text-align: center;
+    direction: rtl;
+  }
+#intro h2 {
+    font-size: 20px;
+    text-align: left;
+    direction: ltr;
+    text-decoration: none;
+    font-weight: normal;
+    line-height: 150%;
+  }
+
+#index {
+    line-height: 135%;
+    padding-right: 5%;
+    padding-left: 5%;
+    direction: ltr;
+  }
+
+#source_table {
+    line-height: 135%;
+    padding-right: 5%;
+    padding-left: 5%;
+    direction: ltr;
+  }
+
+#index h1 {
+    line-height: 135%;
+    text-align: right;
+    padding-right: 5%;
+    direction: rtl;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: normal;
+  }
+
+    </style>
+
+</head>
+<body>

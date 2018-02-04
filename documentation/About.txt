@@ -1,0 +1,7 @@
+Jedli, version 0.1
+
+Jedli is a text mining toolbox for Arabic texts, developed by José Haro Peralta and Peter Verkinderen (Hamburg University).
+
+The Jedli toolbox is under constant development. Please get in touch if you are interested in cooperation, if you would like to see new functionalities, or just to share your experiences with the program. 
+
+Jedli is released under the Apache 2.0 license. 
