@@ -36,4 +36,5 @@ Documentation
 -------------
 
 Documentation is being built at https://readthedocs.org/projects/jedli/
+
 In the mean time, use the PDF documentation at https://github.com/pverkind/jedli/tree/master/documentation
