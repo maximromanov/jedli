@@ -2,6 +2,8 @@
 Technical manual
 ================
 
+.. automodule:: jedli
+
 Modules
 =======
 
@@ -11,116 +13,101 @@ __________
 
 This is the module that initiates the GUI (graphical user interface). In the executable version of the program, it is called jedli_main.exe
 
-.. automodule:: jedli_main
+.. automodule:: jedli.jedli_main
    :members:
-   :undoc-members:
 
 jedli_gui
 _________
 
 Contains the code for the main window of the Jedli GUI
 
-.. automodule:: modules.jedli_gui
+.. automodule:: jedli.modules.jedli_gui
    :members:
-   :undoc-members:
 
 jedli_logic
 ___________
 
 Contains the code for the main Jedli search tools (Indexer, Highlighter, Context Search)
 
-.. automodule:: modules.jedli_logic
+.. automodule:: jedli.modules.jedli_logic
    :members:
-   :undoc-members:
 
 core_mining_functions
 _____________________
 
 Contains the functions that are used by all jedli tools
 
-.. automodule:: modules.core_mining_functions
+.. automodule:: jedli.modules.core_mining_functions
    :members:
-   :undoc-members:
 
 jedli_global.py
 _______________
 
 Contains important global variables
 
-.. automodule:: modules.jedli_global
+.. automodule:: jedli.modules.jedli_global
    :members:
-   :undoc-members:
 
 jedli_logger.py
 _______________
 
 Contains the code for the log screen that opens alongside the main Jedli window
 
-.. automodule:: modules.jedli_logger
+.. automodule:: jedli.modules.jedli_logger
    :members:
-   :undoc-members:
 
 jedli_EpubConverter
 ___________________
 
 Contains an epub converter for Shamela texts
 
-.. automodule:: modules.jedli_EpubConverter
+.. automodule:: jedli.modules.jedli_EpubConverter
    :members:
-   :undoc-members:
 
 jedli_search_options
 ____________________
 
 Contains the code for the search options window GUI
 
-.. automodule:: modules.jedli_search_options
+.. automodule:: jedli.modules.jedli_search_options
    :members:
-   :undoc-members:
 
 source_selection
 ________________
 
 Contains the code for the source selection window GUI
 
-.. automodule:: modules.source_selection
+.. automodule:: jedli.modules.source_selection
    :members:
-   :undoc-members:
 
 sourceUpdate
 ____________
 
 Contains the code for the source update window GUI
 
-.. automodule:: modules.sourceUpdata
+.. automodule:: jedli.modules.sourceUpdata
    :members:
-   :undoc-members:
 
 setDefaultValues
 ________________
 
 Contains the code for the set default values window GUI
 
-.. automodule:: modules.setDefaultValues
+.. automodule:: jedli.modules.setDefaultValues
    :members:
-   :undoc-members:
 
 date_plot
 _________
 
 Contains the code for the plotly graph that represents the spread of results over time
 
-.. automodule:: modules.date_plot
+.. automodule:: jedli.modules.date_plot
    :members:
-   :undoc-members:
 
 chronoplot
 __________
 
 Contains the code for the plotly scatter/line plot that represents the distribution of the sets of search words within the text
 
-.. automodule:: modules.chronoplot
+.. automodule:: jedli.modules.chronoplot
    :members:
-   :undoc-members:
-
-

@@ -1,9 +1,8 @@
-﻿Welcome to jedli's documentation!
+Welcome to jedli's documentation!
 =================================
 
 .. toctree::
    :maxdepth: 3
-   :caption: Contents:
 
    source/quickstart
    source/usermanual

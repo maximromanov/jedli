@@ -50,34 +50,1003 @@
 <div class="section" id="jedli-gui">
 <h3>jedli_gui<a class="headerlink" href="#jedli-gui" title="Permalink to this headline">¶</a></h3>
 <p>Contains the code for the main window of the Jedli GUI</p>
+<span class="target" id="module-modules.jedli_gui"></span><dl class="class">
+<dt id="modules.jedli_gui.Application">
+<em class="property">class </em><code class="descclassname">modules.jedli_gui.</code><code class="descname">Application</code><span class="sig-paren">(</span><em>parent=None</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.Application" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="modules.jedli_gui.Application.make_frames">
+<code class="descname">make_frames</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.Application.make_frames" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="modules.jedli_gui.ContextGUI">
+<em class="property">class </em><code class="descclassname">modules.jedli_gui.</code><code class="descname">ContextGUI</code><a class="headerlink" href="#modules.jedli_gui.ContextGUI" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="modules.jedli_gui.ContextGUI.contextSearch">
+<code class="descname">contextSearch</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.ContextGUI.contextSearch" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.ContextGUI.define_context_chars">
+<code class="descname">define_context_chars</code><span class="sig-paren">(</span><em>words_context</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.ContextGUI.define_context_chars" title="Permalink to this definition">¶</a></dt>
+<dd><p>the user indicates the number of words of context she wants.
+This function converts this number of words to a number of characters</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.ContextGUI.make_context_buttons">
+<code class="descname">make_context_buttons</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.ContextGUI.make_context_buttons" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.ContextGUI.other_terms_than_NOT_words">
+<code class="descname">other_terms_than_NOT_words</code><span class="sig-paren">(</span><em>variables</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.ContextGUI.other_terms_than_NOT_words" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return True if at least one of the search terms is not a NOT word</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="modules.jedli_gui.GetValues">
+<em class="property">class </em><code class="descclassname">modules.jedli_gui.</code><code class="descname">GetValues</code><a class="headerlink" href="#modules.jedli_gui.GetValues" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the values from the user input fields in Jedli’s main screen. 
+These values are saved as variables in the instance of this class,
+which can then be passed on to other classes.</p>
+<dl class="method">
+<dt id="modules.jedli_gui.GetValues.getValues">
+<code class="descname">getValues</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.GetValues.getValues" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="modules.jedli_gui.HighlightGUI">
+<em class="property">class </em><code class="descclassname">modules.jedli_gui.</code><code class="descname">HighlightGUI</code><span class="sig-paren">(</span><em>parent=None</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.HighlightGUI" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="modules.jedli_gui.HighlightGUI.highlighter">
+<code class="descname">highlighter</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.HighlightGUI.highlighter" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.HighlightGUI.make_highlight_buttons">
+<code class="descname">make_highlight_buttons</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.HighlightGUI.make_highlight_buttons" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.HighlightGUI.other_terms_than_NOT_words">
+<code class="descname">other_terms_than_NOT_words</code><span class="sig-paren">(</span><em>variables</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.HighlightGUI.other_terms_than_NOT_words" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return True if at least one of the search terms is not a NOT word</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="modules.jedli_gui.IndexGUI">
+<em class="property">class </em><code class="descclassname">modules.jedli_gui.</code><code class="descname">IndexGUI</code><span class="sig-paren">(</span><em>parent=None</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.IndexGUI" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="modules.jedli_gui.IndexGUI.define_context_chars">
+<code class="descname">define_context_chars</code><span class="sig-paren">(</span><em>words_context</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.IndexGUI.define_context_chars" title="Permalink to this definition">¶</a></dt>
+<dd><p>the user indicates the number of words of context she wants.
+This function converts this number of words to a number of characters</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.IndexGUI.index_generator">
+<code class="descname">index_generator</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.IndexGUI.index_generator" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.IndexGUI.make_index_buttons">
+<code class="descname">make_index_buttons</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.IndexGUI.make_index_buttons" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.IndexGUI.other_terms_than_NOT_words">
+<code class="descname">other_terms_than_NOT_words</code><span class="sig-paren">(</span><em>variables</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.IndexGUI.other_terms_than_NOT_words" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return True if at least one of the search terms is not a NOT word</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="modules.jedli_gui.InputOutputGUI">
+<em class="property">class </em><code class="descclassname">modules.jedli_gui.</code><code class="descname">InputOutputGUI</code><span class="sig-paren">(</span><em>parent=None</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.InputOutputGUI" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="modules.jedli_gui.InputOutputGUI.build_tree">
+<code class="descname">build_tree</code><span class="sig-paren">(</span><em>source_list</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.InputOutputGUI.build_tree" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.InputOutputGUI.createButtons">
+<code class="descname">createButtons</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.InputOutputGUI.createButtons" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.InputOutputGUI.loadSearch">
+<code class="descname">loadSearch</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.InputOutputGUI.loadSearch" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.InputOutputGUI.outputFolder">
+<code class="descname">outputFolder</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.InputOutputGUI.outputFolder" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.InputOutputGUI.saveSearch">
+<code class="descname">saveSearch</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.InputOutputGUI.saveSearch" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.InputOutputGUI.selectSources">
+<code class="descname">selectSources</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.InputOutputGUI.selectSources" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.InputOutputGUI.setDefaultValues">
+<code class="descname">setDefaultValues</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.InputOutputGUI.setDefaultValues" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="modules.jedli_gui.MainContainer">
+<em class="property">class </em><code class="descclassname">modules.jedli_gui.</code><code class="descname">MainContainer</code><span class="sig-paren">(</span><em>parent</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.MainContainer" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="modules.jedli_gui.MainContainer.displayLogger">
+<code class="descname">displayLogger</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.MainContainer.displayLogger" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.MainContainer.hello">
+<code class="descname">hello</code><span class="sig-paren">(</span><em>pth</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.MainContainer.hello" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.MainContainer.loadPreferences">
+<code class="descname">loadPreferences</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.MainContainer.loadPreferences" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.MainContainer.loadSearch">
+<code class="descname">loadSearch</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.MainContainer.loadSearch" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.MainContainer.makeMenu">
+<code class="descname">makeMenu</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.MainContainer.makeMenu" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.MainContainer.makeScrollBar">
+<code class="descname">makeScrollBar</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.MainContainer.makeScrollBar" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.MainContainer.resizeFrame">
+<code class="descname">resizeFrame</code><span class="sig-paren">(</span><em>event</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.MainContainer.resizeFrame" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.MainContainer.saveSearch">
+<code class="descname">saveSearch</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.MainContainer.saveSearch" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="modules.jedli_gui.MakeSearchRows">
+<em class="property">class </em><code class="descclassname">modules.jedli_gui.</code><code class="descname">MakeSearchRows</code><a class="headerlink" href="#modules.jedli_gui.MakeSearchRows" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="modules.jedli_gui.MakeSearchRows.alifs">
+<code class="descname">alifs</code><span class="sig-paren">(</span><em>word</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.MakeSearchRows.alifs" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.MakeSearchRows.apply_options">
+<code class="descname">apply_options</code><span class="sig-paren">(</span><em>word</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.MakeSearchRows.apply_options" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.MakeSearchRows.askCheckList">
+<code class="descname">askCheckList</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.MakeSearchRows.askCheckList" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.MakeSearchRows.createRows">
+<code class="descname">createRows</code><span class="sig-paren">(</span><em>row_no</em>, <em>frame</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.MakeSearchRows.createRows" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.MakeSearchRows.searchOptions">
+<code class="descname">searchOptions</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.MakeSearchRows.searchOptions" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="modules.jedli_gui.SearchTermsGUI">
+<em class="property">class </em><code class="descclassname">modules.jedli_gui.</code><code class="descname">SearchTermsGUI</code><span class="sig-paren">(</span><em>parent=None</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.SearchTermsGUI" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="modules.jedli_gui.SearchTermsGUI.addFirstRow">
+<code class="descname">addFirstRow</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.SearchTermsGUI.addFirstRow" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_gui.SearchTermsGUI.addNewRow">
+<code class="descname">addNewRow</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_gui.SearchTermsGUI.addNewRow" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
 </div>
 <div class="section" id="jedli-logic">
 <h3>jedli_logic<a class="headerlink" href="#jedli-logic" title="Permalink to this headline">¶</a></h3>
 <p>Contains the code for the main Jedli search tools (Indexer, Highlighter, Context Search)</p>
+<span class="target" id="module-modules.jedli_logic"></span><dl class="class">
+<dt id="modules.jedli_logic.ContextSearch">
+<em class="property">class </em><code class="descclassname">modules.jedli_logic.</code><code class="descname">ContextSearch</code><span class="sig-paren">(</span><em>variables</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.AND_search">
+<code class="descname">AND_search</code><span class="sig-paren">(</span><em>AND_words_list</em>, <em>AND_words_regex_list</em>, <em>input_result</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.AND_search" title="Permalink to this definition">¶</a></dt>
+<dd><p>return a list of the AND_words that were found in the input_result context</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.contextSearch">
+<code class="descname">contextSearch</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.contextSearch" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.del_keys">
+<code class="descname">del_keys</code><span class="sig-paren">(</span><em>input_dic</em>, <em>key_list</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.del_keys" title="Permalink to this definition">¶</a></dt>
+<dd><p>deletes all keys in the key_list from a dictionary.
+Recursively goes through nested dictionaries</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.finalize_page_refs">
+<code class="descname">finalize_page_refs</code><span class="sig-paren">(</span><em>current_results</em>, <em>final=True</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.finalize_page_refs" title="Permalink to this definition">¶</a></dt>
+<dd><p>After the last results have been written to the results files,
+add the page links to all pages to the result files</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.formatResults">
+<code class="descname">formatResults</code><span class="sig-paren">(</span><em>context</em>, <em>search_results</em>, <em>words_regex</em>, <em>AND_words_regex</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.formatResults" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add the page number, formatting and highlighting to the search result</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.format_final_indexfile">
+<code class="descname">format_final_indexfile</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.format_final_indexfile" title="Permalink to this definition">¶</a></dt>
+<dd><p>rearrange the results, sorted per search word, not per source</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.getContext">
+<code class="descname">getContext</code><span class="sig-paren">(</span><em>index_tuple</em>, <em>context_tup</em>, <em>text</em>, <em>text_length</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.getContext" title="Permalink to this definition">¶</a></dt>
+<dd><p>get a substring from the text, dependent on:
+* index_tuple: the start and end point of the regex match in the text
+* context: the number of charachters the desired substring should have
+* text: the full string from which the substring should be extracted
+* text_length: the number of characters in the text string</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.highlight_results">
+<code class="descname">highlight_results</code><span class="sig-paren">(</span><em>outcomes</em>, <em>words_regex</em>, <em>AND_words_regex</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.highlight_results" title="Permalink to this definition">¶</a></dt>
+<dd><p>highlight the search terms in the results</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.json_dump_results">
+<code class="descname">json_dump_results</code><span class="sig-paren">(</span><em>fp</em>, <em>results_dic</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.json_dump_results" title="Permalink to this definition">¶</a></dt>
+<dd><p>dump the results as a json file for use in the datecount function.
+The dumped dictionary is a copy of the results_dic, from which
+the html-formatted results and the total number of results are removed</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.make_overview_page">
+<code class="descname">make_overview_page</code><span class="sig-paren">(</span><em>current_results</em>, <em>final=False</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.make_overview_page" title="Permalink to this definition">¶</a></dt>
+<dd><p>make the outline of the overview page</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.make_range">
+<code class="descname">make_range</code><span class="sig-paren">(</span><em>first</em>, <em>current</em>, <em>last</em>, <em>extra=1</em>, <em>before=5</em>, <em>after=5</em>, <em>max_no=20</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.make_range" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make a range of the result pages.
+If there are more pages than max_no, get the range
+from x before and y after the current page number;
+making sure that the range does not go below 0
+and not higher than the last page number.
+Since range does not include the final number,
+an extra can be added if necessary</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.make_result_page_links">
+<code class="descname">make_result_page_links</code><span class="sig-paren">(</span><em>current_results</em>, <em>word</em>, <em>current_page</em>, <em>last_page</em>, <em>final=False</em>, <em>pagetype=None</em>, <em>before=5</em>, <em>after=5</em>, <em>max_no=20</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.make_result_page_links" title="Permalink to this definition">¶</a></dt>
+<dd><p>make the links that refer from the overview page to the results pages</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.make_source_ref">
+<code class="descname">make_source_ref</code><span class="sig-paren">(</span><em>source_id</em>, <em>source_name</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.make_source_ref" title="Permalink to this definition">¶</a></dt>
+<dd><p>make a link to the full text web page for the current source</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.make_source_table_body">
+<code class="descname">make_source_table_body</code><span class="sig-paren">(</span><em>sources_dic</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.make_source_table_body" title="Permalink to this definition">¶</a></dt>
+<dd><p>make the source table body</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.make_source_table_header">
+<code class="descname">make_source_table_header</code><span class="sig-paren">(</span><em>current_results</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.make_source_table_header" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make the header of the sources table</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.make_source_table_totals">
+<code class="descname">make_source_table_totals</code><span class="sig-paren">(</span><em>current_results</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.make_source_table_totals" title="Permalink to this definition">¶</a></dt>
+<dd><p>make the last line of the source table, containing the totals</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.make_temp_result_page">
+<code class="descname">make_temp_result_page</code><span class="sig-paren">(</span><em>word</em>, <em>current_page</em>, <em>page_links</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.make_temp_result_page" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make an empty page that is the target of the “next page” link
+on the current results page. This page has to be deleted if it does
+not contain results after Jedli finished the search</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.output_or_not">
+<code class="descname">output_or_not</code><span class="sig-paren">(</span><em>array_or_string</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.output_or_not" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if an array or string is empty,
+and if the user indicates she wants to have
+empty result sets in the output</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.output_result_page">
+<code class="descname">output_result_page</code><span class="sig-paren">(</span><em>current_results</em>, <em>word</em>, <em>current_page</em>, <em>final=False</em>, <em>pagetype=None</em>, <em>last_page=0</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.output_result_page" title="Permalink to this definition">¶</a></dt>
+<dd><p>make the html page for a section of the results</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.output_source_table">
+<code class="descname">output_source_table</code><span class="sig-paren">(</span><em>sources_dic</em>, <em>current_results</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.output_source_table" title="Permalink to this definition">¶</a></dt>
+<dd><p>make a html table that contains an overview of all the results</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.ContextSearch.remove_temp_page">
+<code class="descname">remove_temp_page</code><span class="sig-paren">(</span><em>word</em>, <em>last_page</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.ContextSearch.remove_temp_page" title="Permalink to this definition">¶</a></dt>
+<dd><p>remove the empty temp pages that were created
+as target of the “next page” links on every current results page</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="modules.jedli_logic.Highlighter">
+<em class="property">class </em><code class="descclassname">modules.jedli_logic.</code><code class="descname">Highlighter</code><span class="sig-paren">(</span><em>variables</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Highlighter" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="modules.jedli_logic.Highlighter.attribute_colors">
+<code class="descname">attribute_colors</code><span class="sig-paren">(</span><em>AND_OR_dics</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Highlighter.attribute_colors" title="Permalink to this definition">¶</a></dt>
+<dd><p>Attribute colors and hidden signs to every set of search words.
+NOT words don’t get colors and hidden signs;
+OR words get the same colors/hidden signs as the previous AND set
+Returns:
+* regexesPerColor: a dictionary that contains the following pairs</p>
+<blockquote>
+<div><ul class="simple">
+<li>key: color (an html color code)</li>
+<li><dl class="first docutils">
+<dt>value: a list containing the following elements:</dt>
+<dd><ol class="first last arabic" start="0">
+<li>a list of the regular expressions that should be highlighted in this color</li>
+<li>the name of the checklist (if any; otherwise: None)</li>
+<li>a list of the original words that form the basis of the regular expressions</li>
+<li>the hidden sign that will be attributed to this batch of words</li>
+</ol>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>regexes: a dictionary that contains the following pairs:</dt>
+<dd><ul class="first last">
+<li>key: regex (a regular expression that should be highlighted)</li>
+<li><dl class="first docutils">
+<dt>value: a list containing the following elements:</dt>
+<dd><ol class="first last arabic" start="0">
+<li>the color this regex should be highlighted in</li>
+<li>the name of the checklist the regex belongs to (if any; otherwise: None)</li>
+<li>the hidden sign that will be attributed to this regex</li>
+</ol>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Highlighter.colorpicker">
+<code class="descname">colorpicker</code><span class="sig-paren">(</span><em>dic</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Highlighter.colorpicker" title="Permalink to this definition">¶</a></dt>
+<dd><p>Let the user pick the colour of her choice for the current checklist</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Highlighter.highlight_word">
+<code class="descname">highlight_word</code><span class="sig-paren">(</span><em>word_regex</em>, <em>text</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Highlighter.highlight_word" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Highlighter.highlighter">
+<code class="descname">highlighter</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Highlighter.highlighter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Main function of this class:
+highlight the relevant words in each of the texts.
+Every set of words is highlighted in a specific colour.
+Default colours can be used,
+or users can define their own colour scheme</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Highlighter.keep_track_of_highlights">
+<code class="descname">keep_track_of_highlights</code><span class="sig-paren">(</span><em>matchobj</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Highlighter.keep_track_of_highlights" title="Permalink to this definition">¶</a></dt>
+<dd><p>give the string matched by the regex a number,
+and store it in the self.NOT_repl_dic, so we can put the string back
+into the text later. Return the temporary replacement code repl</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Highlighter.make_chronoplot">
+<code class="descname">make_chronoplot</code><span class="sig-paren">(</span><em>text</em>, <em>new_file</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Highlighter.make_chronoplot" title="Permalink to this definition">¶</a></dt>
+<dd><p>prepare the data for the chronoplot</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Highlighter.make_empty_indices_dic">
+<code class="descname">make_empty_indices_dic</code><span class="sig-paren">(</span><em>text</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Highlighter.make_empty_indices_dic" title="Permalink to this definition">¶</a></dt>
+<dd><p>make an empty dictionary:
+* keys: set of search words (string)
+* values: a dictionary:</p>
+<blockquote>
+<div><ul class="simple">
+<li>“words_regex”: a list of the corresponding regexes</li>
+<li><dl class="first docutils">
+<dt>“list_indices”: a list of tuples that mark the location of</dt>
+<dd>attestations of these search regexes in the text</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Highlighter.make_random_color">
+<code class="descname">make_random_color</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Highlighter.make_random_color" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates a random color taking random hexadecimal values from 6 to D
+(not too dark, not too clear).
+NB: 0x is the prefix to write numbers in base-16 in C-based languages</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Highlighter.prepare_text">
+<code class="descname">prepare_text</code><span class="sig-paren">(</span><em>source_pth</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Highlighter.prepare_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>open the text file, remove the noise
+and replace the line breaks with html line breaks</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Highlighter.shorten_name">
+<code class="descname">shorten_name</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Highlighter.shorten_name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Shorten the source name for use in the filename</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="modules.jedli_logic.Load_variables">
+<em class="property">class </em><code class="descclassname">modules.jedli_logic.</code><code class="descname">Load_variables</code><span class="sig-paren">(</span><em>variables</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Load_variables" title="Permalink to this definition">¶</a></dt>
+<dd><p>Contains the main variables shared by the main Jedli tools
+(currently Highlighter and Indexer/ContextSearch)</p>
+<dl class="method">
+<dt id="modules.jedli_logic.Load_variables.and_or_not">
+<code class="descname">and_or_not</code><span class="sig-paren">(</span><em>variables</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Load_variables.and_or_not" title="Permalink to this definition">¶</a></dt>
+<dd><p>puts the search terms in lists, depending on the operator
+(AND, OR, NOT) the user selected</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Load_variables.flatten">
+<code class="descname">flatten</code><span class="sig-paren">(</span><em>list_of_lists</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Load_variables.flatten" title="Permalink to this definition">¶</a></dt>
+<dd><p>flatten a list of lists into a simple flat list.
+See <a class="reference external" href="https://stackoverflow.com/a/952952/4045481">https://stackoverflow.com/a/952952/4045481</a></p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Load_variables.get_first_checklist_name">
+<code class="descname">get_first_checklist_name</code><span class="sig-paren">(</span><em>variables</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Load_variables.get_first_checklist_name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Load_variables.get_page_number">
+<code class="descname">get_page_number</code><span class="sig-paren">(</span><em>text</em>, <em>index_tuple</em>, <em>page_regex</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Load_variables.get_page_number" title="Permalink to this definition">¶</a></dt>
+<dd><p>find the page number for the current search result</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Load_variables.keep_replacements">
+<code class="descname">keep_replacements</code><span class="sig-paren">(</span><em>matchobj</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Load_variables.keep_replacements" title="Permalink to this definition">¶</a></dt>
+<dd><p>give the string matched by the regex a number,
+and store it in the self.NOT_repl_dic, so we can put the string back
+into the text later. Return the temporary replacement code repl</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Load_variables.link_page_number">
+<code class="descname">link_page_number</code><span class="sig-paren">(</span><em>page_number</em>, <em>source_id</em>, <em>all_page_numbers</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Load_variables.link_page_number" title="Permalink to this definition">¶</a></dt>
+<dd><p>add a link to the full-text web page to the page number</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Load_variables.make_dir">
+<code class="descname">make_dir</code><span class="sig-paren">(</span><em>pref</em>, <em>suf</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Load_variables.make_dir" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make a directory (if it does not exist yet)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Load_variables.make_metadata">
+<code class="descname">make_metadata</code><span class="sig-paren">(</span><em>final=False</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Load_variables.make_metadata" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make html section with the metadata of the search</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Load_variables.make_output_paths">
+<code class="descname">make_output_paths</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Load_variables.make_output_paths" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make the paths for the main output directory, the data directory,
+the main html file and the json results file</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Load_variables.make_search_options_cell">
+<code class="descname">make_search_options_cell</code><span class="sig-paren">(</span><em>dic</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Load_variables.make_search_options_cell" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make the contents of a search options cell
+in the metadata table</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Load_variables.replace_NOT_words">
+<code class="descname">replace_NOT_words</code><span class="sig-paren">(</span><em>NOT_words_regex</em>, <em>text</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Load_variables.replace_NOT_words" title="Permalink to this definition">¶</a></dt>
+<dd><p>“temporarily replace the NOT words in the text with a code ###REPLd+###</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Load_variables.replace_back">
+<code class="descname">replace_back</code><span class="sig-paren">(</span><em>temp_text</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Load_variables.replace_back" title="Permalink to this definition">¶</a></dt>
+<dd><p>put the original NOT words back into the text</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logic.Load_variables.write_html">
+<code class="descname">write_html</code><span class="sig-paren">(</span><em>pth</em>, <em>html</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logic.Load_variables.write_html" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
 </div>
 <div class="section" id="core-mining-functions">
 <h3>core_mining_functions<a class="headerlink" href="#core-mining-functions" title="Permalink to this headline">¶</a></h3>
 <p>Contains the functions that are used by all jedli tools</p>
+<span class="target" id="module-modules.core_mining_functions"></span><p>Core functions for working with Arabic sources</p>
+<dl class="function">
+<dt id="modules.core_mining_functions.deNoise">
+<code class="descclassname">modules.core_mining_functions.</code><code class="descname">deNoise</code><span class="sig-paren">(</span><em>text</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.core_mining_functions.deNoise" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function eliminates all diacriticals from the text in
+order to faciliate its computational processing</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="modules.core_mining_functions.deNoise2">
+<code class="descclassname">modules.core_mining_functions.</code><code class="descname">deNoise2</code><span class="sig-paren">(</span><em>text</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.core_mining_functions.deNoise2" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function converts all notes in the text to percentage
+symbols in order to eliminate these redundant digits that
+might interfer in the anlaysis of the text</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="modules.core_mining_functions.eraseNotes">
+<code class="descclassname">modules.core_mining_functions.</code><code class="descname">eraseNotes</code><span class="sig-paren">(</span><em>text</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.core_mining_functions.eraseNotes" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function eliminates all end of page notes, as their
+presence might interfer with the computational analysis of
+the text. I think that the function is not very effective yet</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="modules.core_mining_functions.ignore_interword_characters">
+<code class="descclassname">modules.core_mining_functions.</code><code class="descname">ignore_interword_characters</code><span class="sig-paren">(</span><em>clause</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.core_mining_functions.ignore_interword_characters" title="Permalink to this definition">¶</a></dt>
+<dd><p>replace space in the search term with a regex that ignores 
+spaces, footnote references, line breaks, punctuation etc</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="modules.core_mining_functions.natural_sort">
+<code class="descclassname">modules.core_mining_functions.</code><code class="descname">natural_sort</code><span class="sig-paren">(</span><em>l</em>, <em>x</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.core_mining_functions.natural_sort" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function natural-sorts a list of lists (l),
+taking the element at index “x” as key
+natural sorting sorts alphabetical parts of a string alphabetically
+and numerical parts of a string numerically
+therefore, this function splits the string into alphabetical and numerical parts</p>
+</dd></dl>
+
 </div>
 <div class="section" id="jedli-global-py">
 <h3>jedli_global.py<a class="headerlink" href="#jedli-global-py" title="Permalink to this headline">¶</a></h3>
 <p>Contains important global variables</p>
+<span class="target" id="module-modules.jedli_global"></span><dl class="function">
+<dt id="modules.jedli_global.print">
+<code class="descclassname">modules.jedli_global.</code><code class="descname">print</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_global.print" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="modules.jedli_global.rClickbinder">
+<code class="descclassname">modules.jedli_global.</code><code class="descname">rClickbinder</code><span class="sig-paren">(</span><em>r</em>, <em>readonly=False</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_global.rClickbinder" title="Permalink to this definition">¶</a></dt>
+<dd><p>alternative to binding the rClicker to every widget separately:
+make the rClicker available to every Entry/Text/Listbox/Label widget
+see <a class="reference external" href="https://stackoverflow.com/a/4552646/4045481">https://stackoverflow.com/a/4552646/4045481</a>
+use rClickbinder(self.top) to make the right-click menu available
+for all widgets in self.top</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="modules.jedli_global.rClicker">
+<code class="descclassname">modules.jedli_global.</code><code class="descname">rClicker</code><span class="sig-paren">(</span><em>e</em>, <em>readonly=False</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_global.rClicker" title="Permalink to this definition">¶</a></dt>
+<dd><p>right click context menu for all Tk Entry and Text widgets
+see <a class="reference external" href="https://stackoverflow.com/a/4552646/4045481">https://stackoverflow.com/a/4552646/4045481</a>
+use self.textf.bind(‘&lt;Button-3&gt;’,rClicker, add=’‘)
+to bind the right-click menu to the self.texf widget</p>
+</dd></dl>
+
 </div>
 <div class="section" id="jedli-logger-py">
 <h3>jedli_logger.py<a class="headerlink" href="#jedli-logger-py" title="Permalink to this headline">¶</a></h3>
 <p>Contains the code for the log screen that opens alongside the main Jedli window</p>
+<span class="target" id="module-modules.jedli_logger"></span><dl class="class">
+<dt id="modules.jedli_logger.Logger">
+<em class="property">class </em><code class="descclassname">modules.jedli_logger.</code><code class="descname">Logger</code><a class="headerlink" href="#modules.jedli_logger.Logger" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="modules.jedli_logger.Logger.hideWindow">
+<code class="descname">hideWindow</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logger.Logger.hideWindow" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_logger.Logger.make_text_frame">
+<code class="descname">make_text_frame</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logger.Logger.make_text_frame" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="modules.jedli_logger.RedirectLogging">
+<em class="property">class </em><code class="descclassname">modules.jedli_logger.</code><code class="descname">RedirectLogging</code><span class="sig-paren">(</span><em>widget</em>, <em>color_var</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logger.RedirectLogging" title="Permalink to this definition">¶</a></dt>
+<dd><p>Used to redirect logging output to the widget passed in parameters</p>
+<dl class="method">
+<dt id="modules.jedli_logger.RedirectLogging.write">
+<code class="descname">write</code><span class="sig-paren">(</span><em>string</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logger.RedirectLogging.write" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="modules.jedli_logger.main">
+<code class="descclassname">modules.jedli_logger.</code><code class="descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logger.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="modules.jedli_logger.main2">
+<code class="descclassname">modules.jedli_logger.</code><code class="descname">main2</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_logger.main2" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </div>
 <div class="section" id="jedli-epubconverter">
 <h3>jedli_EpubConverter<a class="headerlink" href="#jedli-epubconverter" title="Permalink to this headline">¶</a></h3>
 <p>Contains an epub converter for Shamela texts</p>
+<span class="target" id="module-modules.jedli_EpubConverter"></span><dl class="function">
+<dt id="modules.jedli_EpubConverter.epubConverter">
+<code class="descclassname">modules.jedli_EpubConverter.</code><code class="descname">epubConverter</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_EpubConverter.epubConverter" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </div>
 <div class="section" id="jedli-search-options">
 <h3>jedli_search_options<a class="headerlink" href="#jedli-search-options" title="Permalink to this headline">¶</a></h3>
 <p>Contains the code for the search options window GUI</p>
+<span class="target" id="module-modules.jedli_search_options"></span><dl class="class">
+<dt id="modules.jedli_search_options.Search_options">
+<em class="property">class </em><code class="descclassname">modules.jedli_search_options.</code><code class="descname">Search_options</code><a class="headerlink" href="#modules.jedli_search_options.Search_options" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="modules.jedli_search_options.Search_options.Check_beginning">
+<code class="descname">Check_beginning</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.Check_beginning" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.Check_ending">
+<code class="descname">Check_ending</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.Check_ending" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.Check_option">
+<code class="descname">Check_option</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.Check_option" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.Disable_beginning">
+<code class="descname">Disable_beginning</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.Disable_beginning" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.Disable_ending">
+<code class="descname">Disable_ending</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.Disable_ending" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.Disable_prefixes">
+<code class="descname">Disable_prefixes</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.Disable_prefixes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.Disable_restricted">
+<code class="descname">Disable_restricted</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.Disable_restricted" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.Disable_suffixes">
+<code class="descname">Disable_suffixes</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.Disable_suffixes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.Enable_beginning">
+<code class="descname">Enable_beginning</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.Enable_beginning" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.Enable_ending">
+<code class="descname">Enable_ending</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.Enable_ending" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.Enable_prefixes">
+<code class="descname">Enable_prefixes</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.Enable_prefixes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.Enable_restricted">
+<code class="descname">Enable_restricted</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.Enable_restricted" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.Enable_suffixes">
+<code class="descname">Enable_suffixes</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.Enable_suffixes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.alifs">
+<code class="descname">alifs</code><span class="sig-paren">(</span><em>word</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.alifs" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.apply_options">
+<code class="descname">apply_options</code><span class="sig-paren">(</span><em>word</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.apply_options" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.close_search_options">
+<code class="descname">close_search_options</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.close_search_options" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.defineVariables">
+<code class="descname">defineVariables</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.defineVariables" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.displaySearchregexes">
+<code class="descname">displaySearchregexes</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.displaySearchregexes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.exampleSearch">
+<code class="descname">exampleSearch</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.exampleSearch" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.getValues">
+<code class="descname">getValues</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.getValues" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.getValuesAndDisplay">
+<code class="descname">getValuesAndDisplay</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.getValuesAndDisplay" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.makeButtons">
+<code class="descname">makeButtons</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.makeButtons" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.setInitialSettings">
+<code class="descname">setInitialSettings</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.setInitialSettings" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.jedli_search_options.Search_options.unhideExampleFrame">
+<code class="descname">unhideExampleFrame</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.jedli_search_options.Search_options.unhideExampleFrame" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
 </div>
 <div class="section" id="source-selection">
 <h3>source_selection<a class="headerlink" href="#source-selection" title="Permalink to this headline">¶</a></h3>
 <p>Contains the code for the source selection window GUI</p>
+<span class="target" id="module-modules.source_selection"></span><dl class="class">
+<dt id="modules.source_selection.Download">
+<em class="property">class </em><code class="descclassname">modules.source_selection.</code><code class="descname">Download</code><a class="headerlink" href="#modules.source_selection.Download" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="modules.source_selection.Download.addButtons">
+<code class="descname">addButtons</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Download.addButtons" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Download.addDownloads">
+<code class="descname">addDownloads</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Download.addDownloads" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Download.leave">
+<code class="descname">leave</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Download.leave" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="modules.source_selection.Source_selection">
+<em class="property">class </em><code class="descclassname">modules.source_selection.</code><code class="descname">Source_selection</code><a class="headerlink" href="#modules.source_selection.Source_selection" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="modules.source_selection.Source_selection.addDownloads">
+<code class="descname">addDownloads</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.addDownloads" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Source_selection.apply_filters">
+<code class="descname">apply_filters</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.apply_filters" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Source_selection.build_tree">
+<code class="descname">build_tree</code><span class="sig-paren">(</span><em>tree</em>, <em>source_list</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.build_tree" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Source_selection.clear_all">
+<code class="descname">clear_all</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.clear_all" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Source_selection.filter_sources">
+<code class="descname">filter_sources</code><span class="sig-paren">(</span><em>source_list</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.filter_sources" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Source_selection.filter_string">
+<code class="descname">filter_string</code><span class="sig-paren">(</span><em>filters</em>, <em>string</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.filter_string" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Source_selection.get_filter_data">
+<code class="descname">get_filter_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.get_filter_data" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Source_selection.get_selected_sources">
+<code class="descname">get_selected_sources</code><span class="sig-paren">(</span><em>my_sel</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.get_selected_sources" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Source_selection.leave">
+<code class="descname">leave</code><span class="sig-paren">(</span><em>widget</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.leave" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Source_selection.loadSelection">
+<code class="descname">loadSelection</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.loadSelection" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Source_selection.make_filterf">
+<code class="descname">make_filterf</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.make_filterf" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Source_selection.make_frames">
+<code class="descname">make_frames</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.make_frames" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Source_selection.make_selectedf">
+<code class="descname">make_selectedf</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.make_selectedf" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Source_selection.make_sourcef">
+<code class="descname">make_sourcef</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.make_sourcef" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Source_selection.make_transferf">
+<code class="descname">make_transferf</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.make_transferf" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Source_selection.move_to_selected">
+<code class="descname">move_to_selected</code><span class="sig-paren">(</span><em>selection</em>, <em>dest</em>, <em>origin</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.move_to_selected" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Source_selection.numericData">
+<code class="descname">numericData</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.numericData" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Source_selection.numericData2">
+<code class="descname">numericData2</code><span class="sig-paren">(</span><em>dt</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.numericData2" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Source_selection.populate_frames">
+<code class="descname">populate_frames</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.populate_frames" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Source_selection.set_main_variables">
+<code class="descname">set_main_variables</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.set_main_variables" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.source_selection.Source_selection.sortby">
+<code class="descname">sortby</code><span class="sig-paren">(</span><em>tree</em>, <em>col</em>, <em>descending</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.Source_selection.sortby" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="modules.source_selection.download">
+<code class="descclassname">modules.source_selection.</code><code class="descname">download</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.download" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="modules.source_selection.main">
+<code class="descclassname">modules.source_selection.</code><code class="descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="modules.source_selection.source_selection">
+<code class="descclassname">modules.source_selection.</code><code class="descname">source_selection</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.source_selection.source_selection" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </div>
 <div class="section" id="sourceupdate">
 <h3>sourceUpdate<a class="headerlink" href="#sourceupdate" title="Permalink to this headline">¶</a></h3>
@@ -86,14 +1055,157 @@
 <div class="section" id="setdefaultvalues">
 <h3>setDefaultValues<a class="headerlink" href="#setdefaultvalues" title="Permalink to this headline">¶</a></h3>
 <p>Contains the code for the set default values window GUI</p>
+<span class="target" id="module-modules.setDefaultValues"></span><dl class="class">
+<dt id="modules.setDefaultValues.SetDefaultValues">
+<em class="property">class </em><code class="descclassname">modules.setDefaultValues.</code><code class="descname">SetDefaultValues</code><a class="headerlink" href="#modules.setDefaultValues.SetDefaultValues" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="modules.setDefaultValues.SetDefaultValues.adjustMainWindowSettings">
+<code class="descname">adjustMainWindowSettings</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.setDefaultValues.SetDefaultValues.adjustMainWindowSettings" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.setDefaultValues.SetDefaultValues.askFolder">
+<code class="descname">askFolder</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.setDefaultValues.SetDefaultValues.askFolder" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.setDefaultValues.SetDefaultValues.build_tree">
+<code class="descname">build_tree</code><span class="sig-paren">(</span><em>source_list</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.setDefaultValues.SetDefaultValues.build_tree" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.setDefaultValues.SetDefaultValues.leave">
+<code class="descname">leave</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.setDefaultValues.SetDefaultValues.leave" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.setDefaultValues.SetDefaultValues.loadPreferences">
+<code class="descname">loadPreferences</code><span class="sig-paren">(</span><em>filename=None</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.setDefaultValues.SetDefaultValues.loadPreferences" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.setDefaultValues.SetDefaultValues.loadPreferencesToEdit">
+<code class="descname">loadPreferencesToEdit</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.setDefaultValues.SetDefaultValues.loadPreferencesToEdit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.setDefaultValues.SetDefaultValues.make_frame">
+<code class="descname">make_frame</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.setDefaultValues.SetDefaultValues.make_frame" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.setDefaultValues.SetDefaultValues.populate_frame">
+<code class="descname">populate_frame</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.setDefaultValues.SetDefaultValues.populate_frame" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.setDefaultValues.SetDefaultValues.savePreferences">
+<code class="descname">savePreferences</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.setDefaultValues.SetDefaultValues.savePreferences" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.setDefaultValues.SetDefaultValues.selectSearchOptions">
+<code class="descname">selectSearchOptions</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.setDefaultValues.SetDefaultValues.selectSearchOptions" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.setDefaultValues.SetDefaultValues.selectSources">
+<code class="descname">selectSources</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.setDefaultValues.SetDefaultValues.selectSources" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="modules.setDefaultValues.SetDefaultValues.set_main_variables">
+<code class="descname">set_main_variables</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.setDefaultValues.SetDefaultValues.set_main_variables" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="modules.setDefaultValues.loadDefaultValues">
+<code class="descclassname">modules.setDefaultValues.</code><code class="descname">loadDefaultValues</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.setDefaultValues.loadDefaultValues" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="modules.setDefaultValues.main">
+<code class="descclassname">modules.setDefaultValues.</code><code class="descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.setDefaultValues.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="modules.setDefaultValues.setDefaultValues">
+<code class="descclassname">modules.setDefaultValues.</code><code class="descname">setDefaultValues</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modules.setDefaultValues.setDefaultValues" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 </div>
 <div class="section" id="date-plot">
 <h3>date_plot<a class="headerlink" href="#date-plot" title="Permalink to this headline">¶</a></h3>
 <p>Contains the code for the plotly graph that represents the spread of results over time</p>
+<span class="target" id="module-modules.date_plot"></span><p>NB: replaced matplotlib with plotly</p>
+<dl class="function">
+<dt id="modules.date_plot.draw_graph">
+<code class="descclassname">modules.date_plot.</code><code class="descname">draw_graph</code><span class="sig-paren">(</span><em>data</em>, <em>json_path</em>, <em>relative</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.date_plot.draw_graph" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="modules.date_plot.load_json">
+<code class="descclassname">modules.date_plot.</code><code class="descname">load_json</code><span class="sig-paren">(</span><em>pth</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.date_plot.load_json" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="modules.date_plot.main">
+<code class="descclassname">modules.date_plot.</code><code class="descname">main</code><span class="sig-paren">(</span><em>json_path</em>, <em>grouped=False</em>, <em>relative=False</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.date_plot.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="modules.date_plot.make_grouped_date_graph">
+<code class="descclassname">modules.date_plot.</code><code class="descname">make_grouped_date_graph</code><span class="sig-paren">(</span><em>data</em>, <em>json_path</em>, <em>group</em>, <em>relative</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.date_plot.make_grouped_date_graph" title="Permalink to this definition">¶</a></dt>
+<dd><p>graph the word count; group dates by decade, century, etc.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="modules.date_plot.make_relative_date_graph">
+<code class="descclassname">modules.date_plot.</code><code class="descname">make_relative_date_graph</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.date_plot.make_relative_date_graph" title="Permalink to this definition">¶</a></dt>
+<dd><p>graph the relative word count for every date</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="modules.date_plot.make_simple_date_graph">
+<code class="descclassname">modules.date_plot.</code><code class="descname">make_simple_date_graph</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.date_plot.make_simple_date_graph" title="Permalink to this definition">¶</a></dt>
+<dd><p>graph the raw word count for every date</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="modules.date_plot.rounddown">
+<code class="descclassname">modules.date_plot.</code><code class="descname">rounddown</code><span class="sig-paren">(</span><em>value</em>, <em>base=50</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.date_plot.rounddown" title="Permalink to this definition">¶</a></dt>
+<dd><p>round any value down to the nearest base</p>
+</dd></dl>
+
 </div>
 <div class="section" id="chronoplot">
 <h3>chronoplot<a class="headerlink" href="#chronoplot" title="Permalink to this headline">¶</a></h3>
 <p>Contains the code for the plotly scatter/line plot that represents the distribution of the sets of search words within the text</p>
+<span class="target" id="module-modules.chronoplot"></span><p>make a scatter/line plot that represents
+the distribution of the sets of search words
+within the text.</p>
+<p>Problems:
+1. the scatter plot has more batches than it is supposed to have
+2. the result is not clear; looks like a confetti bomb</p>
+<dl class="function">
+<dt id="modules.chronoplot.chronoplot">
+<code class="descclassname">modules.chronoplot.</code><code class="descname">chronoplot</code><span class="sig-paren">(</span><em>text_len</em>, <em>indices_dic</em>, <em>outputfp</em>, <em>batches=100</em>, <em>write_file=False</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.chronoplot.chronoplot" title="Permalink to this definition">¶</a></dt>
+<dd><p>make a scatter/line plot that represents
+the distribution of the sets of search words
+within the text.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="modules.chronoplot.define_batch">
+<code class="descclassname">modules.chronoplot.</code><code class="descname">define_batch</code><span class="sig-paren">(</span><em>text_len</em>, <em>batches</em><span class="sig-paren">)</span><a class="headerlink" href="#modules.chronoplot.define_batch" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function can be used in two ways:
+1. to define how large a batch is for a text of a given text_len
+and a batches number of batches
+2. to define into which batch a position inside the text falls</p>
+</dd></dl>
+
 </div>
 </div>
 </div>
