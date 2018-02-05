@@ -31,3 +31,9 @@ Adding texts to Jedli
 ---------------------
 
 Jedli comes with a small number of sample texts; more texts can be downloaded from our website, or added by the user (see the manual).
+
+Documentation
+-------------
+
+Documentation is being built at https://readthedocs.org/projects/jedli/
+In the mean time, use the PDF documentation at https://github.com/pverkind/jedli/tree/master/documentation
