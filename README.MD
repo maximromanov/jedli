@@ -13,9 +13,9 @@ Getting started with Jedli
 Jedli currently contains three main tools
 -----------------------------------------
 
-- The Indexer: creates customized index files for any number of words in any number of sources.
-- The Highlighter: highlights the words the user provided in a text, in order to facilitate retrieving relevant information from lengthy texts; different colors can be used for different (sets of) search terms, allowing the user to create personal color schemes.
-- The Context Search: allows you to limit your search results to relevant contexts, based on user‐defined checklists.
+- The **Indexer**: creates customized index files for any number of words in any number of sources.
+- The **Highlighter**: highlights the words the user provided in a text, in order to facilitate retrieving relevant information from lengthy texts; different colors can be used for different (sets of) search terms, allowing the user to create personal color schemes.
+- The **Context Search**: allows you to limit your search results to relevant contexts, based on user‐defined checklists.
 
 More tools will be added later to the tool box. Contact us if you would like to see another feature.
 
