@@ -5,8 +5,9 @@ Welcome to jedli's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   source/intro
-   source/jedli_logic
+   source/quickstart
+   source/usermanual
+   source/technicalmanual
 
 
 
