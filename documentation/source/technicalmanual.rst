@@ -1,2 +1,4 @@
-Jedli_logic
-===========
+Technical manual
+================
+
+TBC
