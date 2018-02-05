@@ -1,4 +1,4 @@
-Quick start guide
+﻿Quick start guide
 =================
 
 Jedli is a data mining tool box, designed to get more out of digitized Arabic texts.
@@ -24,7 +24,7 @@ The advantages of Jedli over other tools
 
 - *checklists of search terms*: you can create lists with an unlimited number of search terms, which you can use repeatedly for search operations.
 - allows you to use separate, highly customizable *search options* for each search term.
-- allows you to create your own *source selections* (based on genres, time periods, �).
+- allows you to create your own *source selections* (based on genres, time periods, …).
 - allows you to *save all your search results*
 
 Adding texts to Jedli

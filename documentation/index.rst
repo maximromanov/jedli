@@ -1,4 +1,4 @@
-Welcome to jedli's documentation!
+﻿Welcome to jedli's documentation!
 =================================
 
 .. toctree::
